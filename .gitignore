@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Vercel CLI
+.vercel/
+
+# Tests / coverage
+coverage/
+
+# Env (secrets / machine-local)
+.env*.local
+
+# TypeScript incremental
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Openspec project/*
+CLAUDE.md
+PLAN.md

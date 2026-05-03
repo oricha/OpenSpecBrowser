@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__filesystem__directory_tree",
+      "Bash(find /Users/zion/dev/project/*/openspec/changes/archive -type d)",
+      "mcp__filesystem__list_directory",
+      "mcp__filesystem__read_text_file",
+      "mcp__filesystem__write_file",
+      "mcp__filesystem__create_directory",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(pkill -f \"node.*next\")",
+      "mcp__filesystem__edit_file",
+      "Bash(pkill -f \"npm run dev\")",
+      "Bash(curl -s http://localhost:3200)",
+      "Bash(npm install *)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(npx tsc *)",
+      "Bash(curl -s http://localhost:3200 -o /dev/null -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3200/api/projects)",
+      "Bash(curl -s http://localhost:3200/projects/462423a0-ef51-4c52-882a-19fd490f11bf -o /dev/null -w \"Dashboard HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s \"http://localhost:3200/projects/462423a0-ef51-4c52-882a-19fd490f11bf/edit?path=changes/01-initial-spec/proposal.md\" -o /dev/null -w \"Editor HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s \"http://localhost:3200/projects/462423a0-ef51-4c52-882a-19fd490f11bf/edit?path=changes/F1.1.1-search.md\" -o /dev/null -w \"Editor con archivo real HTTP %{http_code}\\\\n\")"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "openspec-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3200",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@uiw/react-md-editor": "^4.0.5",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "next": "^16.0.0",
+    "proper-lockfile": "^4.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.10.2",
+    "@types/proper-lockfile": "^4.1.4",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.15.0",
+    "eslint-config-next": "^16.0.0",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.7.2"
+  }
+}
