@@ -185,6 +185,16 @@ export function ProjectDashboard({
                           Proposal
                         </Link>
                         <Link
+                          href={`/projects/${projectId}/edit?path=${encodeURIComponent(`changes/${change.slug}/design.md`)}` as never}
+                          className="px-3 py-1 text-[11px] font-medium border rounded transition-colors"
+                          style={{
+                            borderColor: "var(--outline-variant)",
+                            color: "var(--on-surface)",
+                          }}
+                        >
+                          Design
+                        </Link>
+                        <Link
                           href={`/projects/${projectId}/edit?path=${encodeURIComponent(`changes/${change.slug}/tasks.md`)}` as never}
                           className="px-3 py-1 text-[11px] font-medium border rounded transition-colors"
                           style={{
